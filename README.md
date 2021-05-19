@@ -1,0 +1,1 @@
+# mobile_friendly_day1
