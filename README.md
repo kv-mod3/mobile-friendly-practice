@@ -1,1 +1,1 @@
-# mobile_friendly_day1
+# mobile-friendly-practice
