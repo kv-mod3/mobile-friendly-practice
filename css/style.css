@@ -4,7 +4,10 @@
 body {
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
+}
+
+h2 {
+    color: #0C6D78;
 }
 
 .hero-image {
@@ -21,7 +24,7 @@ body {
     background-image: url(wave-haikei.svg);
     background-position: center;
     background-size: cover;
-    height: 540px;
+    height: 100%;
     width: 100%;
     position: absolute;
 }
@@ -43,6 +46,11 @@ body {
 
 }
 
-h2 {
-    color: #0C6D78;
+.container {
+    /* Margins begin from top, right, bottom, left */
+    margin: 0px 200px 100px 200px;
+}
+
+.section2 {
+    text-align: right;
 }
