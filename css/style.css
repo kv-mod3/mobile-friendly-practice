@@ -1,0 +1,56 @@
+/* Imports font Roboto Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #0C6D78;
+}
+
+.hero-image {
+    background-image: linear-gradient(#00D4FE,black);
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image:before {
+    content: "";
+    background-image: url(wave-haikei.svg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.hero-text {
+    /* Adds the Roboto font family */
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+
+    /* Text style */
+    text-align: center;
+    color: white;
+    
+    /* Text position */
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container {
+    /* Margins begin from top, right, bottom, left */
+    margin: 0px 200px 100px 200px;
+}
+
+.section2 {
+    text-align: right;
+}
